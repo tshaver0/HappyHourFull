@@ -7,70 +7,72 @@
     tools:context="com.example.tyler.happyhour.MainActivity">
 
     <LinearLayout
-        android:layout_width="349dp"
-        android:layout_height="417dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="10dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="76dp"
-        android:weightSum="1">
-
-        <Button
-            android:id="@+id/monday"
-            android:layout_width="match_parent"
-            android:layout_height="33dp"
-            android:text="Monday" />
-
-        <Button
-            android:id="@+id/tuesday"
-            android:layout_width="match_parent"
-            android:layout_height="31dp"
-            android:text="Tuesday" />
-
-        <Button
-            android:id="@+id/wednesday"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:text="Wednesday"
-            android:layout_weight="0.05" />
-
-        <Button
-            android:id="@+id/thursday"
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="Thursday" />
-
-        <Button
-            android:id="@+id/friday"
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:text="Friday"
-            android:layout_weight="0.05" />
-
-        <Button
-            android:id="@+id/saturday"
-            android:layout_width="match_parent"
-            android:layout_height="22dp"
-            android:text="Saturday"
-            android:layout_weight="0.05" />
-
-        <Button
-            android:id="@+id/sunday"
-            android:layout_width="match_parent"
-            android:layout_height="28dp"
-            android:text="Sunday"
-            android:layout_weight="0.04" />
-
-    </LinearLayout>
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"></LinearLayout>
 
     <LinearLayout
-        android:layout_width="382dp"
-        android:layout_height="9dp"
-        android:orientation="vertical"
-        android:weightSum="1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="4dp">
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/mondayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monday" />
+
+            <CheckBox
+                android:id="@+id/tuesdayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuesday" />
+
+            <CheckBox
+                android:id="@+id/wednesdayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wednesday" />
+
+            <CheckBox
+                android:id="@+id/thursdayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thursday" />
+
+            <CheckBox
+                android:id="@+id/fridayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Friday" />
+
+            <CheckBox
+                android:id="@+id/saturdayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saturday" />
+
+            <CheckBox
+                android:id="@+id/sundayBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunday" />
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go" />
+        </LinearLayout>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
