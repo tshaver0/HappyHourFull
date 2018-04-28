@@ -97,7 +97,7 @@ public class timeToStringTest {
     @Test
     public void testTime2400(){
         Log.d("TimeTests", "Got from 2400 " + mTest.timeToString(2400));
-        assertEquals("12:00 PM", mTest.timeToString(2400));
+        assertEquals("12:00 AM", mTest.timeToString(2400));
     }
 
     @Test
