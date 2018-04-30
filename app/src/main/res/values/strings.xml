@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Happy Hour</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="barCollection">bars</string>
+    <string name="dealCollection">deal</string>
+
+    <string name="barAddress">address</string>
+    <string name="barDescription">description</string>
+    <string name="barHappyScore">happy score</string>
+    <string name="barLocation">location</string>
+    <string name="barName">name</string>
+
+    <string name="dealBarRef">bar</string>
+    <string name="dealDay">day of week</string>
+    <string name="dealDescription">desc</string>
+    <string name="dealEndTime">end time</string>
+    <string name="dealStartTime">start time</string>
+
 </resources>
